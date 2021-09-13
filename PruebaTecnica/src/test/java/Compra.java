@@ -88,49 +88,6 @@ public class Compra extends BaseTest{
 
         }
 
-
-
-
-
-
-
-
-/*
-
-
-
-
-
-        //Hacemos click en el segundo boton para cerrar compra
-        WebElement botonSegundoCerrarCompra = driver.findElement(By.xpath("//p//*[contains(text(),'Proceed to checkout')]"));
-        botonSegundoCerrarCompra.click();
-
-        //Hacemos click en el tercer boton para cerrar compra
-        WebElement botonTercerCerrarCompra = driver.findElement(By.xpath("//button/span[contains(text(),'Proceed to checkout')]"));
-        botonTercerCerrarCompra.click();
-
-        //Hacemos click en el checkbox de aceptar las condiciones
-        WebElement checkboxAceptoLasCondiciones = driver.findElement(By.cssSelector("#cgv"));
-        checkboxAceptoLasCondiciones.click();
-
-        //Hacemos click en el cuarto boton para cerrar compra
-        WebElement botonCuartoCerrarCompra = driver.findElement(By.xpath("//button[@name='processCarrier']//span[contains(text(),'Proceed to checkout')]"));
-        botonCuartoCerrarCompra.click();
-
-
-        //Hacemos click en el boton pagar con cheque
-        WebElement botonPagarConCheque = driver.findElement(By.cssSelector(".cheque"));
-        botonPagarConCheque.click();
-
-        //Confirmamos la orden
-        WebElement botonConfirmarOrden = driver.findElement(By.xpath("//*[contains(text(),'I confirm my order')]"));
-        botonConfirmarOrden.click();
-
-        //Acertamos el banner de orden completa
-        WebElement bannerOrdenCompleta = driver.findElement(By.className("alert"));
-        Assert.assertTrue(bannerOrdenCompleta.isDisplayed());
-*/
-
     }
 
 }
